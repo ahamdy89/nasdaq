@@ -1,1 +1,1 @@
-export type { default as Ticker } from "./tickers";
+export type { default as Ticker } from "./Tickers";

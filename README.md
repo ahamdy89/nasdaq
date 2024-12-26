@@ -2,7 +2,7 @@
 
 # To Run the App:
 - Use npm install to install dependencies:
-- run npm dev start to start the App
+- run npm run dev to start the App
 
 # Packages Installed
 - React + Typescript using Vite.

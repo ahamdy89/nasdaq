@@ -9,7 +9,7 @@ interface Props {
   changePage: (nextPageKey: string) => void;
 }
 
-const Tickers = ({ isLoading, tickers, nextUrl, changePage }: Props) => {
+const Tickers = ({ tickers, nextUrl, changePage }: Props) => {
   return (
     <InfiniteScroll
       dataLength={tickers.length}

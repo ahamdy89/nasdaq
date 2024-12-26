@@ -12,8 +12,8 @@ function App() {
     useGetTickers();
 
   useEffect(() => {
-    if (error) {
-      enqueueSnackbar(error.response.data.error as string, {variant:"error"});
+    if (error instanceof AxiosError) {
+      enqueueSnackbar(error?.response?.data.error, {variant:"error"});
     }
   }, [error]);
 

@@ -1,0 +1,26 @@
+.page-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding-block-start: 5rem;
+  padding-inline: 1rem;
+}
+
+.card-container {
+  border-radius: 8px;
+  border: 1px solid black;
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding-inline: 1rem;
+}
+
+
+@media only screen and (max-width: 991px) {
+  .page-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

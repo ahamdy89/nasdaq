@@ -1,0 +1,33 @@
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #afafaf;
+  color: white;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.searchInput {
+  padding: 8px;
+  width: 300px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+
+.searchInput::placeholder {
+  color: #a0a0a0;
+}
+
+@media only screen and (max-width: 991px) {
+  .searchInput {
+    width: 160px;
+  }
+}
